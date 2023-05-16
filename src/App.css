@@ -1,7 +1,11 @@
-.app {
+.body {
     background-color: gray;
 }
 
 .footer {
     background-color: #C33579;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    height: 100px;
+    margin-top: 10vw;
 }
