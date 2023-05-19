@@ -7,6 +7,10 @@
 
 }
 
+.title {
+    padding-top: 55px;
+}
+
 .blue.box {
     display: flex;
     flex-direction: row;
@@ -22,7 +26,7 @@
     color: white
 }
 
-.font2 {
+.introteksti {
     font-family: 'DM Sans', sans-serif;
     font-size: 1rem;
     color: white

@@ -7,11 +7,9 @@ const Home = () => {
         <span className="font">MIETI, MITÄ POSTAAT SOMEEN</span>
       </h1>
 
-      <h2>
-        <span className="font2">
-          - Kampanja informoimaan oman yksityisyyden vaarantamisesta
-          omien kuvien jakamisella.
-        </span>
+      <h2 className="introteksti">
+        - Kampanja informoimaan oman yksityisyyden vaarantamisesta
+        omien kuvien jakamisella.
       </h2>
 
       <div className="blue box">

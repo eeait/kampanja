@@ -1,4 +1,5 @@
 import "./App.css"
+import Navbar from "./pages/Navbar"
 import {
   BrowserRouter as Router,
   Routes,
@@ -17,11 +18,7 @@ function App() {
   return (
     <div className="app">
       <Router>
-        <nav>
-          <Link to="/">home</Link>
-          <Link to="/about">about</Link>
-          <Link to="/game">game</Link>
-        </nav>
+        <Navbar />
 
         <Routes>
           <Route path="/about" element={<About />} />
@@ -29,10 +26,11 @@ function App() {
           <Route path="/" element={<Home />} />
         </Routes>
       </Router>
+
       <footer className="footer">
         <div className="box1">
           <p className="text1">
-            <span className="font">Ota yhteyttä</span>
+            <span className="otayhteytta">Ota yhteyttä</span>
           </p>
         </div>
 
@@ -67,10 +65,10 @@ function App() {
 
         <div className="box3">
           <p className="text2">
-            <span className="font2">mietimitapostaat@gmail.com</span>
+            <span className="osoite">mietimitapostaat@gmail.com</span>
           </p>
           <p className="text3">
-            <span className="font2">+358 123456</span>
+            <span className="osoite">+358 123456</span>
           </p>
         </div>
 
