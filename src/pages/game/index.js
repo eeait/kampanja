@@ -32,7 +32,7 @@ const GameBoard = ({ picture, propProblems }) => {
 
   return (
     <>
-      <p>
+      <p className="font2">
         {problems.filter((p) => p.found).length} / {problems.length} löydetty
         {problems.filter((p) => p.found).length === problems.length ? "! Voitit pelin!" : ""}
       </p>
@@ -70,7 +70,7 @@ const GameBoard = ({ picture, propProblems }) => {
             )
           })}
         </svg>
-        <p>{message}</p>
+        <p className="font2">{message}</p>
       </div>
     </>
   )
@@ -79,9 +79,9 @@ const GameBoard = ({ picture, propProblems }) => {
 // Game component
 const Game = () => {
   return (
-    <div style={{ backgroundColor: "white" }}>
-      <h1>Peli: Somen vaaranpaikat</h1>
-      <p>
+    <div className="game">
+      <h1 className="font-link">Peli: Somen vaaranpaikat</h1>
+      <p className="font2">
         Etsi ja klikkaa kuvasta kaikki kohdat, joissa paljastuu
         enemmän tietoa kuin olisi ehkä tarkoitus. Löydätkö kaikki
         kuusi vaaranpaikkaa?
